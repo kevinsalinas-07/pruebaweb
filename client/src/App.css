@@ -1,0 +1,20 @@
+/* client/src/App.css */
+body {
+    background-color: #f8f9fa;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .card-plato {
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .card-plato:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .panel-fijo-superior {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
